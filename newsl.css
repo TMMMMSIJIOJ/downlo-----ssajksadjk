@@ -1,3 +1,15 @@
+body {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+button.right {
+        float: right;
+      }
 body {font-family: Arial, Helvetica, sans-serif;}
 
 .navbar {
