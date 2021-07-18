@@ -210,7 +210,7 @@ footer {
    
 }
 
-@media(max-width: 500px) {
+@media(max-width: 200px) {
 
   .wrapper {
     font-size: 15px;
