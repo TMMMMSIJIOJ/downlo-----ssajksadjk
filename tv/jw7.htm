@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+        <meta charset="utf-8">
+        <title>直播频道 - IVI测试IPTV</title>
+        <script type="text/javascript" src="./css/jquery.js"></script>
+        <script type="text/javascript" src="./css/purl.js"></script>
+        <script src="http://p.ye23.vip/jw7.8.4/jwplayer.js" charset="utf-8"></script>
+
+    </head>
+
+    <style>
+        *{
+            margin: 0;
+            outline: 0 none;
+            padding: 0;
+        }
+        body,html,center{
+            height:100%;
+        }
+    </style>
+
+    <body>
+        <center>
+            <div class="main" id="player">
+                正在加载播放器...若长时间无响应，说明播放器不支持您当前使用的浏览器。请尝试更换其他浏览器观看。
+            </div>
+        </center>
+    </body>
+</html>
+
+<script type="text/javascript">
+$(function(){
+  var a = $.url().param('channel');
+  var host = window.location.host;
+  //var streamurl = "//ivi.bupt.edu.cn/hls/"+a+".m3u8";
+  //if (host == 'ivi6.bupt.edu.cn'){
+  //	streamurl = "//ivi6.bupt.edu.cn/hls/"+a+".m3u8";
+  //}
+  var streamurl = "http://ivi.bupt.edu.cn/hls/"+a+".m3u8";
+  var playerInstance = jwplayer("player");
+  jwplayer.key="vXr5GP+It4nbLRbYpK/2/S3mcRv/Vlbo38C88w==";
+  playerInstance.setup({
+    file: streamurl,
+    hlshtml: true,
+    autostart: true,
+    live: true,
+    //primary: "html5",
+    primary: "flash",
+    displaytitle: false,
+    volume: 75,
+    height:"100%",
+    width:"100%",
+  });
+});
+</script>
+
+</body>
+<div class="count"><script type="text/javascript" src="/js/cnzz.js"></script></div>
+</html>

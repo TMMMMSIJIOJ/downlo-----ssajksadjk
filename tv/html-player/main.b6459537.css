@@ -1,0 +1,373 @@
+.player-controller {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: visibility 0s linear 0.7s, opacity 0.7s ease-in-out;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 58px;
+  user-select: none;
+}
+
+.player-controller > * {
+  margin: 0 5px;
+}
+
+.player-controller-visible {
+  transition-delay: 0s;
+  visibility: visible;
+  opacity: 1;
+}
+
+.player-buttons {
+  width: 100%;
+  height: 80%;
+  display: block;
+  align-items: center;
+}
+
+.player-timeline-container {
+  width: 100%;
+  height: 10%;
+  margin: 0px 5px 0px 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.player-timeline {
+  border: none;
+  width: 98%;
+  height: 4px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.player-timeline:hover {
+  cursor: pointer;
+  transition: visibility 0s linear 0.7s, opacity 0.7s ease-in-out;
+  height: 8px;
+}
+
+.player-timeline-mark {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.p_right_controls {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  float: right;
+  width: 380px;
+  min-width: 80px;
+  height: 100%;
+  margin: 0, 10px, 0, 0;
+}
+
+.p_left_controls {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  float: left;
+  width: 280px;
+  min-width: 160px;
+  height: 100%;
+}
+
+.p_time_display {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  white-space: nowrap;
+  width: 80px;
+  height: 100%;
+  cursor: pointer;
+  user-select: none;
+}
+
+.player-timeline-position {
+  font-family: LevelOne;
+  font-size: 0.8em;
+  color: white;
+  float: left;
+}
+
+.player-timeline-slant {
+  font-family: LevelOne;
+  font-size: 0.8em;
+  color: white;
+  float: right;
+}
+
+.player-timeline-duration {
+  font-family: LevelOne;
+  font-size: 0.8em;
+  color: white;
+  float: right;
+}
+
+.player-btn-toggle-play {
+  height: 100%;
+  width: 40px;
+  float: left;
+  display: block;
+  margin-right: 30px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.player-btn-toggle-share {
+  height: 70%;
+  width: 7%;
+  margin: 10%, 0, 0, 0;
+  cursor: pointer;
+}
+
+.player-btn-share-hover {
+  background: url("https://file.iqilu.com/custom/new/shipin/shareR.320df360.svg") center no-repeat;/*  ·ÖÏí-°× */ 
+  background-size: 100%;
+}
+
+.player-btn-share {
+  background: url("https://file.iqilu.com/custom/new/shipin/shareW.73b732f0.svg") center no-repeat;/*  ·ÖÏí-³È */ 
+  background-size: 100%;
+}
+
+.player-btn-toggle-level {
+  height: 100%;
+  width: 57px;
+  margin: 10%, 0, 0, 0;
+  cursor: pointer;
+}
+
+.player-btn-level-hover {
+  background: url("hdFF.64360ff6.svg") center no-repeat;/* ¸ßÇå»Æ https://file.iqilu.com/custom/new/shipin/hdR.64360ff6.svg */ 
+  background-size: 100%;
+  color: #FEA645;
+}
+
+.player-btn-level {
+  background: url("https://file.iqilu.com/custom/new/shipin/hdW.27a912a9.svg") center no-repeat;/* ¸ßÇå°×  */ 
+  background-size: 100%;
+  color: white;
+}
+
+.player-btn-toggle-pip {
+  height: 45%;
+  width: 3%;
+  border-radius: 7pt;
+  padding: 2px;
+  margin: 10%, 0, 0, 0;
+}
+
+.player-btn-pip-hover {
+  background: url("https://file.iqilu.com/custom/new/shipin/pipR.de7543d5.svg") center no-repeat;/*  »­ÖÐ»­-³È */ 
+  background-size: 50%;
+}
+
+.player-btn-pip {
+  background: url("https://file.iqilu.com/custom/new/shipin/pipW.da2905d1.svg") center no-repeat;/*  »­ÖÐ»­-°×  */ 
+  background-size: 50%;
+}
+
+.player-btn-toggle-fullscr {
+  height: 100%;
+  width: 44px;
+  margin-left: 30px;
+}
+
+.player-btn-fullscr-hover {
+  background: url("https://file.iqilu.com/custom/new/shipin/fullscreenR.4a923ee0.svg") center no-repeat;/*  È«ÆÁ-³È  */ 
+  background-size: 50%;
+}
+
+.player-btn-fullscr {
+  background: url("https://file.iqilu.com/custom/new/shipin/fullscreenW.1b0752ad.svg") center no-repeat;/*  È«ÆÁ-°×  */ 
+  background-size: 50%;
+}
+
+.player-btn-play {
+  background: url("https://file.iqilu.com/custom/new/shipin/playW.4aa964e0.svg") center no-repeat;/*  ²¥·Å-°×É«  */ 
+  background-size: 50%;
+}
+
+.player-btn-pause {
+  background: url("https://file.iqilu.com/custom/new/shipin/pauseW.fe786a80.svg") center no-repeat;/*  ÔÝÍ£-°×  */ 
+  background-size: 40%;
+}
+
+.player-btn-toggle-audio {
+  height: 100%;
+  width: 44px;
+  cursor: pointer;
+}
+
+.player-btn-audio-on {
+  background: url("https://file.iqilu.com/custom/new/shipin/volumeW.cac02d4c.svg") center no-repeat;/*  ÒôÁ¿-°×  */ 
+  background-size: 60%;
+}
+
+.player-btn-audio-on-hover {
+  background: url("https://file.iqilu.com/custom/new/shipin/volumeR.80e0c5bf.svg") center no-repeat; /*  ÒôÁ¿-éÙ  */ 
+  background-size: 60%;
+}
+
+.player-btn-audio-off {
+  background: url("https://file.iqilu.com/custom/new/shipin/muteW.01853eb0.svg") center no-repeat; /*  ¾²Òô-°×  */ 
+  background-size: 60%;
+}
+
+.player-btn-audio-off-hover {
+  background: url("https://file.iqilu.com/custom/new/shipin/muteR.3c5eb696.svg") center no-repeat;    /*  ¾²Òô-»Æ   */ 
+  background-size: 60%;
+}
+
+.player-logo-qiluwang {
+  height: 100%;
+  width: 102px;
+  display: block;
+  float: right;
+  margin-right: 15px;
+  margin-left: 30px;
+  background: url("logo.png") center no-repeat;/*  https://file.iqilu.com/custom/new/shipin/logo.2f5d67cf.svg     #3399FF    */
+  background-size: 100%;
+}
+
+.player-btn-play-hover {
+  background: url("playR.c4c0b9d5.svg") center no-repeat;/*  play-³È  https://file.iqilu.com/custom/new/shipin/playR.c4c0b9d5.svg  */
+  background-size: 50%;
+}
+
+.player-btn-pause-hover {
+  background: url("pauseR.789a8171.svg") center no-repeat;/*  ÔÝÍ£-³È   https://file.iqilu.com/custom/new/shipin/pauseR.789a8171.svg  */
+  background-size: 40%;
+}
+
+.player-btn-big {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 33%;
+  height: 33%;
+  margin: 2%;
+  z-index: 20;
+  opacity: 0.5;
+  border-radius: 40px;
+  background: url("https://file.iqilu.com/custom/new/shipin/media-play.de846ce2.svg") center no-repeat;
+  background-size: 33%;
+  background-color: white;
+  cursor: pointer;
+  display: none;
+}
+
+.player-btn-big-hidden {
+  display: none;
+}
+
+.player-btn-big-visible {
+  display: none;
+}
+
+.p_volume_handle {
+  position: absolute;
+  z-index: 25;
+  top: 0px;
+  left: -3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.4s ease;
+}
+
+.p_volume_handle_hover {
+  background-color: #FEA645;
+  -webkit-transform: scale(1.5, 1.5);
+  transform: scale(1.5, 1.5);
+}
+
+.p_volume_range_current {
+  z-index: 24;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  border-radius: 2px;
+  background-color: #FEA645;
+}
+
+.p_volume_range {
+  position: relative;
+  z-index: 23;
+  width: 4px;
+  height: 90px;
+  margin: 10px 19px;
+  border-radius: 2px;
+  background-color: #a6a6a6;
+  background-color: rgba(166, 166, 166, 0.5);
+  cursor: pointer;
+}
+
+.p_popup_content {
+  border-radius: 4px;
+  z-index: 22;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+.p_popup_volume {
+  display: none;
+  z-index: 20;
+  position: absolute;
+  bottom: 34px;
+  width: 100%;
+  padding-bottom: 13px;
+  color: #eee;
+  cursor: default;
+  left: 205px;
+  width: 42px;
+  transform: translate(-50%);
+}
+
+.p_control_volume_button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  margin-left: 30px;
+}
+
+@media (max-width: 700px) {
+  .player-timeline-container {
+    display: none;
+  }
+
+  .p_right_controls {
+    display: none;
+  }
+}
+.eyevinn-player {
+  display: block;
+  width: 100%;
+  height: 525px;
+}
+
+/*# sourceMappingURL=/main.b6459537.css.map */

@@ -1,0 +1,764 @@
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>校园直播-IPTV</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/base.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/mobile-sytle.css">
+
+<!------------------------------->
+
+
+
+
+
+
+</head>
+<body>
+<div class="img">
+
+<div id="header-top">
+<img src="pic/logo.png" class="logo">
+</div>
+<div class="container">
+
+<div class="row tv-row notice">
+<div class="col-md-12">
+<ul class="nav nav-tabs">
+<li class="active">
+<a>直播通告</a>
+</li>
+</ul>
+</div>
+</div>
+
+
+
+<!------------------------------->
+
+<div align=center><b></b></div>
+<table cellspacing=0 cellpadding=1 width="100%" border=0>
+
+<tr><th bgcolor=transparent><marquee direction=up height=30 width=260 id=m onmouseout=m.start() onMouseOver=m.stop() scrollamount=1 align="center">
+<p>如果播放不畅，请更换浏览器</p>
+<p><a href="/go/?url=http://iptv.ye23.win/z7z8/new.php" target="_blank">z7z8留言板</a> 
+<p><a href="/go/?url=https://www.right.com.cn/forum/" target="_blank">恩山无线论坛</a> 
+<p>庆祝中国共产党成立100周年</p>
+
+ 
+
+</marquee></th>
+
+ 
+</tr>
+</table>
+
+<!------------------------------->
+
+
+<!-----
+<marquee scrollAmount=1 width=300 direction=up behavior=slide  span style=color:green>如不能正常播放,请更换浏览器</marquee>
+a) scrollAmount。它表示速度，值越大速度越快。如果没有它，默认为6，建议设为1～3比较好。
+b) width和height，表示滚动区域的大小，width是宽度，height是高度。特别是在做垂直滚动的时候，一定要设height的值。
+c) direction。表示滚动的方向，默认为从右向左：←←←。可选的值有right、down、up。滚动方向分别为：right表示→→→，up表示↑，down表示↓。
+d) scrollDelay，这也是用来控制速度的，默认为90，值越大，速度越慢。通常scrollDelay是不需要设置的。
+e) behavior。用它来控制属性，默认为循环滚动，可选的值有alternate(交替滚动)、slide(幻灯片效果，指的是滚动一次，然后停止滚动)
+
+------>
+
+
+<div class="row tv-row">
+<div class="col-md-12">
+<ul class="nav nav-tabs">
+<li class="active">
+<a>热门高清</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="row tv-row">
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=chchd" target="_blank" class="btn btn-block btn-primary">CHC高清电影</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=hunanhd" target="_blank" class="btn btn-block btn-primary">湖南卫视高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=jshd" target="_blank" class="btn btn-block btn-primary">江苏卫视高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=cctv5phd" target="_blank" class="btn btn-block btn-primary">CCTV-5+高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=dfhd" target="_blank" class="btn btn-block btn-primary">东方卫视高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=ahhd" target="_blank" class="btn btn-block btn-primary">安徽卫视高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=szhd" target="_blank" class="btn btn-block btn-primary">深圳卫视高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=btv11" target="_blank" class="btn btn-block btn-primary">北京冬奥纪实</a>
+</div>
+</div>
+
+<div class="row tv-row">
+<div class="col-md-12">
+<ul class="nav nav-tabs">
+<li class="active">
+<a>特色频道</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="row tv-row">
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=zqhd" target="_blank" class="btn btn-block btn-primary">足球频道</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=fhzx" target="_blank" class="btn btn-block btn-primary">凤凰资讯台</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=fhzw" target="_blank" class="btn btn-block btn-primary">凤凰中文台</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=fhdy" target="_blank" class="btn btn-block btn-primary">凤凰电影台</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=discovery" target="_blank" class="btn btn-block btn-primary">探索频道</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=natlgeo" target="_blank" class="btn btn-block btn-primary">国家地理</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=startv" target="_blank" class="btn btn-block btn-primary">星空卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=channelv" target="_blank" class="btn btn-block btn-primary">Channel[V]</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=starsports" target="_blank" class="btn btn-block btn-primary">卫视体育台</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=hls62" target="_blank" class="btn btn-block btn-primary">环球奇观</a>
+</div>
+
+
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=chctv" target="_blank" class="btn btn-block btn-primary">CHC家庭影院</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=chcatv" target="_blank" class="btn btn-block btn-primary">CHC动作电影</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=chchd" target="_blank" class="btn btn-block btn-primary">CHCHD电影</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=docuchina" target="_blank" class="btn btn-block btn-primary">纪实人文</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=hls64" target="_blank" class="btn btn-block btn-primary">新动漫</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=hls36" target="_blank" class="btn btn-block btn-primary">武术世界</a>
+</div>
+<!---->
+</div>
+
+
+
+
+
+
+
+<div class="row tv-row">
+<div class="col-md-12">
+<ul class="nav nav-tabs">
+<li class="active">
+<a>高清频道</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="row tv-row">
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=cctv1hd" target="_blank" class="btn btn-block btn-primary">CCTV-1高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=cctv2hd" target="_blank" class="btn btn-block btn-primary">CCTV-2高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=cctv3hd" target="_blank" class="btn btn-block btn-primary">CCTV-3高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=cctv4hd" target="_blank" class="btn btn-block btn-primary">CCTV-4高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=cctv5hd" target="_blank" class="btn btn-block btn-primary">CCTV-5高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=cctv5phd" target="_blank" class="btn btn-block btn-primary">CCTV-5+高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=cctv6hd" target="_blank" class="btn btn-block btn-primary">CCTV-6高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=cctv7hd" target="_blank" class="btn btn-block btn-primary">CCTV-7高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=cctv8hd" target="_blank" class="btn btn-block btn-primary">CCTV-8高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=cctv9hd" target="_blank" class="btn btn-block btn-primary">CCTV-9高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=cctv10hd" target="_blank" class="btn btn-block btn-primary">CCTV-10高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=cctv12hd" target="_blank" class="btn btn-block btn-primary">CCTV-12高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=cctv14hd" target="_blank" class="btn btn-block btn-primary">CCTV-14高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=cctv17hd" target="_blank" class="btn btn-block btn-primary">CCTV-17高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=cgtnhd" target="_blank" class="btn btn-block btn-primary">CGTN高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=cgtndochd" target="_blank" class="btn btn-block btn-primary">CGTN DOC高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=cetv1hd" target="_blank" class="btn btn-block btn-primary">CETV-1高清</a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=chchd" target="_blank" class="btn btn-block btn-primary">CHC高清电影</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=btv1hd" target="_blank" class="btn btn-block btn-primary">北京卫视高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=btv2hd" target="_blank" class="btn btn-block btn-primary">北京文艺高清</a>
+</div>
+
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=btv4hd" target="_blank" class="btn btn-block btn-primary">北京影视高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=btv9hd" target="_blank" class="btn btn-block btn-primary">北京新闻高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=btv11hd" target="_blank" class="btn btn-block btn-primary">北京纪实高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=hunanhd" target="_blank" class="btn btn-block btn-primary">湖南卫视高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=zjhd" target="_blank" class="btn btn-block btn-primary">浙江卫视高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=jshd" target="_blank" class="btn btn-block btn-primary">江苏卫视高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=dfhd" target="_blank" class="btn btn-block btn-primary">东方卫视高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=ahhd" target="_blank" class="btn btn-block btn-primary">安徽卫视高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=hljhd" target="_blank" class="btn btn-block btn-primary">黑龙江卫视高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=lnhd" target="_blank" class="btn btn-block btn-primary">辽宁卫视高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=szhd" target="_blank" class="btn btn-block btn-primary">深圳卫视高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=gdhd" target="_blank" class="btn btn-block btn-primary">广东卫视高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=tjhd" target="_blank" class="btn btn-block btn-primary">天津卫视高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=hbhd" target="_blank" class="btn btn-block btn-primary">湖北卫视高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=sdhd" target="_blank" class="btn btn-block btn-primary">山东卫视高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=cqhd" target="_blank" class="btn btn-block btn-primary">重庆卫视高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=docuchina" target="_blank" class="btn btn-block btn-primary">上海纪实高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=schd" target="_blank" class="btn btn-block btn-primary">四川卫视高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=gedocu" target="_blank" class="btn btn-block btn-primary">金鹰纪实高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=dnhd" target="_blank" class="btn btn-block btn-primary">福建东南卫视高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=hebhd" target="_blank" class="btn btn-block btn-primary">河北卫视高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=jxhd" target="_blank" class="btn btn-block btn-primary">江西卫视高清</a>
+</div>
+
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=hnhd" target="_blank" class="btn btn-block btn-primary">河南卫视高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=gxhd" target="_blank" class="btn btn-block btn-primary">广西卫视高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=jlhd" target="_blank" class="btn btn-block btn-primary">吉林卫视高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=lyhd" target="_blank" class="btn btn-block btn-primary">海南卫视高清</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=gzhd" target="_blank" class="btn btn-block btn-primary">贵州卫视高清</a>
+</div>
+
+
+
+</div>
+<div class="row tv-row">
+<div class="col-md-12">
+<ul class="nav nav-tabs">
+<li class="active">
+<a>央视标清</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="row tv-row">
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=cctv1" target="_blank" class="btn btn-block btn-primary">CCTV-1综合</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=cctv2" target="_blank" class="btn btn-block btn-primary">CCTV-2财经</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=cctv3" target="_blank" class="btn btn-block btn-primary">CCTV-3综艺</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=cctv4" target="_blank" class="btn btn-block btn-primary">CCTV-4中文国际</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=cctv5" target="_blank" class="btn btn-block btn-primary">CCTV-5体育</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=cctv5phd" target="_blank" class="btn btn-block btn-primary">CCTV-5+体育</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=cctv6" target="_blank" class="btn btn-block btn-primary">CCTV-6电影</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=cctv7" target="_blank" class="btn btn-block btn-primary">CCTV-7军事农业</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=cctv8" target="_blank" class="btn btn-block btn-primary">CCTV-8电视剧</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=cctv9" target="_blank" class="btn btn-block btn-primary">CCTV-9纪录</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=cctv10" target="_blank" class="btn btn-block btn-primary">CCTV-10科教</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=cctv11" target="_blank" class="btn btn-block btn-primary">CCTV-11戏曲</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=cctv12" target="_blank" class="btn btn-block btn-primary">CCTV-12社会与法</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=cctv13" target="_blank" class="btn btn-block btn-primary">CCTV-13新闻</a>
+</div>
+<div class="col-xs-4 col-md-3">
+ <a href="player.htm?channel=cctv14" target="_blank" class="btn btn-block btn-primary">CCTV-14少儿</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=cctv15" target="_blank" class="btn btn-block btn-primary">CCTV-15音乐</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=cctv16" target="_blank" class="btn btn-block btn-primary">CGTN</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=cctv17" target="_blank" class="btn btn-block btn-primary">CCTV-17农业农村</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=cgtndochd" target="_blank" class="btn btn-block btn-primary">CGTN DOC</a>
+</div>
+
+
+
+
+
+
+
+
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=hls184a515" target="_blank" class="btn btn-block btn-primary">CCTV-世界地理</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=hls186a88" target="_blank" class="btn btn-block btn-primary">CCTV-电视指南</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=hls184a520" target="_blank" class="btn btn-block btn-primary">CCTV-文化精品</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=hls184a574" target="_blank" class="btn btn-block btn-primary">CCTV-央视台球</a>
+</div>
+
+
+
+
+
+
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=dyjctv" target="_blank" class="btn btn-block btn-primary">CCTV-第一剧场</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=hls184a519" target="_blank" class="btn btn-block btn-primary">CCTV-风云音乐</a>
+</div>
+
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=fyzqtv" target="_blank" class="btn btn-block btn-primary">CCTV-风云足球</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=hjjctv" target="_blank" class="btn btn-block btn-primary">CCTV-怀旧剧场</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=gfjstv" target="_blank" class="btn btn-block btn-primary">CCTV-兵器科技</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=hls44" target="_blank" class="btn btn-block btn-primary">CCTV-女性时尚</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=hls61" target="_blank" class="btn btn-block btn-primary">央视文化精品</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=hls113" target="_blank" class="btn btn-block btn-primary">央视新影-老故事</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=cetv1" target="_blank" class="btn btn-block btn-primary">CETV1</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=cetv3" target="_blank" class="btn btn-block btn-primary">CETV3</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=cetv4" target="_blank" class="btn btn-block btn-primary">CETV4</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=hls25" target="_blank" class="btn btn-block btn-primary">CETV早期教育</a>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="row tv-row">
+<div class="col-md-12">
+<ul class="nav nav-tabs">
+<li class="active">
+<a>北京标清</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="row tv-row">
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=btv1" target="_blank" class="btn btn-block btn-primary">北京卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=btv2" target="_blank" class="btn btn-block btn-primary">北京文艺</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=btv3" target="_blank" class="btn btn-block btn-primary">北京科教</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=btv4" target="_blank" class="btn btn-block btn-primary">北京影视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=btv5" target="_blank" class="btn btn-block btn-primary">北京财经</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<del><a href="player.htm?channel=btv6" target="_blank" class="btn btn-block btn-primary">北京体育</a></del>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=btv7" target="_blank" class="btn btn-block btn-primary">北京生活</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=btv8" target="_blank" class="btn btn-block btn-primary">北京青年</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=btv9" target="_blank" class="btn btn-block btn-primary">北京新闻</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=btv10" target="_blank" class="btn btn-block btn-primary">北京卡酷少儿</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=btv11" target="_blank" class="btn btn-block btn-primary">北京冬奥纪实</a>
+</div>
+
+
+
+</div>
+<div class="row tv-row">
+<div class="col-md-12">
+<ul class="nav nav-tabs">
+<li class="active">
+<a>标清频道</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="row tv-row">
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=zjtv" target="_blank" class="btn btn-block btn-primary">浙江卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=hunantv" target="_blank" class="btn btn-block btn-primary">湖南卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=jstv" target="_blank" class="btn btn-block btn-primary">江苏卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=dftv" target="_blank" class="btn btn-block btn-primary">东方卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=sztv" target="_blank" class="btn btn-block btn-primary">深圳卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=ahtv" target="_blank" class="btn btn-block btn-primary">安徽卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=hntv" target="_blank" class="btn btn-block btn-primary">河南卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=sxtv" target="_blank" class="btn btn-block btn-primary">陕西卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=jltv" target="_blank" class="btn btn-block btn-primary">吉林卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=gdtv" target="_blank" class="btn btn-block btn-primary">广东卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=sdtv" target="_blank" class="btn btn-block btn-primary">山东卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=hbtv" target="_blank" class="btn btn-block btn-primary">湖北卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=gxtv" target="_blank" class="btn btn-block btn-primary">广西卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=hebtv" target="_blank" class="btn btn-block btn-primary">河北卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=xztv" target="_blank" class="btn btn-block btn-primary">西藏卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=nmtv" target="_blank" class="btn btn-block btn-primary">内蒙古卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=qhtv" target="_blank" class="btn btn-block btn-primary">青海卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=sctv" target="_blank" class="btn btn-block btn-primary">四川卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=tjtv" target="_blank" class="btn btn-block btn-primary">天津卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=sxrtv" target="_blank" class="btn btn-block btn-primary">山西卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=lntv" target="_blank" class="btn btn-block btn-primary">辽宁卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=xmtv" target="_blank" class="btn btn-block btn-primary">厦门卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=xjtv" target="_blank" class="btn btn-block btn-primary">新疆卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=hljtv" target="_blank" class="btn btn-block btn-primary">黑龙江卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=yntv" target="_blank" class="btn btn-block btn-primary">云南卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=jxtv" target="_blank" class="btn btn-block btn-primary">江西卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=dntv" target="_blank" class="btn btn-block btn-primary">福建东南卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=gztv" target="_blank" class="btn btn-block btn-primary">贵州卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=nxtv" target="_blank" class="btn btn-block btn-primary">宁夏卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=gstv" target="_blank" class="btn btn-block btn-primary">甘肃卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=cqtv" target="_blank" class="btn btn-block btn-primary">重庆卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=bttv" target="_blank" class="btn btn-block btn-primary">兵团卫视</a>
+</div>
+
+
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=ybtv" target="_blank" class="btn btn-block btn-primary">延边卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=sstv" target="_blank" class="btn btn-block btn-primary">三沙卫视</a>
+</div>
+
+
+
+
+
+
+
+
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=lytv" target="_blank" class="btn btn-block btn-primary">海南卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=cetv1" target="_blank" class="btn btn-block btn-primary">中国教育-1</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=cetv3" target="_blank" class="btn btn-block btn-primary">中国教育-3</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=cetv4" target="_blank" class="btn btn-block btn-primary">中国教育-4</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=chcatv" target="_blank" class="btn btn-block btn-primary">CHC动作电影</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=chctv" target="_blank" class="btn btn-block btn-primary">CHC家庭影院</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=djsh1" target="_blank" class="btn btn-block btn-primary">党建生活-1</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=djsh2" target="_blank" class="btn btn-block btn-primary">党建生活-2</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=djsh3" target="_blank" class="btn btn-block btn-primary">党建生活-3</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=djsh4" target="_blank" class="btn btn-block btn-primary">党建生活-4</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=djsh5" target="_blank" class="btn btn-block btn-primary">党建生活-5</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=jykttv" target="_blank" class="btn btn-block btn-primary">金鹰卡通</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=xdkttv" target="_blank" class="btn btn-block btn-primary">炫动卡通</a>
+</div>
+
+
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=sdetv" target="_blank" class="btn btn-block btn-primary">山东教育</a>
+</div>
+</div>
+<!---div class="row tv-row">
+<div class="col-md-12">
+<ul class="nav nav-tabs">
+<li class="active">
+<a>特色频道</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="row tv-row">
+<div class="col-xs-4 col-md-3">
+<a href="player.html?channel=zqhd" target="_blank" class="btn btn-block btn-primary">足球频道</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=fhzx" target="_blank" class="btn btn-block btn-primary">凤凰卫视资讯台</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=fhdy" target="_blank" class="btn btn-block btn-primary">凤凰卫视电影台</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=discovery" target="_blank" class="btn btn-block btn-primary">探索频道</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=natlgeo" target="_blank" class="btn btn-block btn-primary">国家地理频道</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=startv" target="_blank" class="btn btn-block btn-primary">星空卫视</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=channelv" target="_blank" class="btn btn-block btn-primary">Channel[V]</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=starsports" target="_blank" class="btn btn-block btn-primary">卫视体育台</a>
+</div>
+<div class="col-xs-4 col-md-3">
+<a href="player.htm?channel=documentaryhd" target="_blank" class="btn btn-block btn-primary">全纪实高清</a>
+</div>
+</div--->
+
+
+<div id="footer">
+
+	<a href="./indexx.html" target="_blank" title="">原版网页</a> | <a href="/z7z8/" target="_blank" title="交流区">交流区</a> | <a href="contact.html" target="_blank" title="版权声明">版权声明</a>
+
+
+<h5>Powered by YE23 ©2017- <script type="text/javascript">
+                     var date = new Date();
+                     document.write("" + date.getFullYear() + "年" . charAt(date.getDay())); </script>&nbsp; </h5>
+</div>
+</div>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+<div class="count"><script type="text/javascript" src="/js/cnzz.js"></script></div>
+
+</html>
