@@ -1,8 +1,8 @@
- /* CSS VARIABLES */
+   /* CSS VARIABLES */
 :root {
   --primary: #141414;
   --light: #F3F3F3;
-  --dark: 	#686868;
+  --dark: #686868;
   --color: black;
 }
 
@@ -11,19 +11,19 @@ html, body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  background-color: var(--primary);
-  color: var(--light);
+  background-color: #141414;
+  color: #F3F3F3;
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
   line-height: 1.4;
 }
 
 img {
-  max-width: 100%;
+  max-width: 90%;
 }
 
 h1 {
-  padding-top: 60px;  
+  padding-top: 50px;  
 }
 
 .wrapper {
@@ -41,7 +41,7 @@ header {
   grid-template-columns: 1fr 4fr 1fr;
   grid-template-areas: 
    "nt mn mn sb . . . "; 
-  background-color: var(--primary);
+  background-color: #141414;
   width: 100%;
   margin-bottom: 0px;  
 }
@@ -73,13 +73,13 @@ header {
 }
 
 .main-nav a {
-  color: var(--light);
+  color: #F3F3F3;
   text-decoration: none;
   margin: 5px;  
 }
 
 .main-nav a:hover {
-  color: var(--dark);
+  color: #686868;
 }
 
 .sub-nav {
@@ -88,13 +88,13 @@ header {
 }
 
 .sub-nav a {
-  color: var(--light);
+  color: #F3F3F3;
   text-decoration: none;
   margin: 5px;
 }
 
 .sub-nav a:hover {
-  color: var(--dark);
+  color: #686868;
 }
 
 
@@ -138,12 +138,12 @@ header {
 }
 
 .sub-links a {
-  color: var(--dark);
+  color: #686868;
   text-decoration: none;
 }
 
 .sub-links a:hover {
-  color: var(--dark);
+  color: #686868;
   text-decoration: underline;
 }
 
@@ -152,7 +152,7 @@ header {
 }
 
 .logo {
-  color: var(--dark);
+  color: #686868;
 }
 
 
@@ -160,7 +160,7 @@ header {
 footer {
   padding: 20px;
   text-align: center;
-  color: var(--dark);
+  color: #686868;
   margin: 10px;
 }
 
